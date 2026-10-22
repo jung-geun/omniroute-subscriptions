@@ -1,0 +1,462 @@
+{
+  "schemaVersion": 1,
+  "name": "omniroute-subscriptions",
+  "version": "1.0.0",
+  "upstream": {
+    "version": "3.8.52",
+    "commit": "edab7c3a59bf7d6f040d581dbda3a46adbee0d57",
+    "packageJsonSha256": "07dace2cacb424e10c025286bf17f8033c4a5bc677cbe70e91f856873b878dee"
+  },
+  "files": [
+    {
+      "path": ".dockerignore",
+      "beforeSha256": "9de69fa7f52282a7f5a15dc2679e46465a616cc8d61184b42bb93661230dacc9",
+      "afterSha256": "3ee607e7a839418cf411c3869fd2b88ccc687bb36fac1c648d455ac33f806547",
+      "mode": 420
+    },
+    {
+      "path": ".gitignore",
+      "beforeSha256": "83cf15dbd13cbb5ec770718a2af914ad699385cb69683ef64d75afc0891f9d5f",
+      "afterSha256": "86b2e6fc7d7ad4420543f339f3f44d0a01fe6d2e5b7987b78915ce7cbebdb126",
+      "mode": 420
+    },
+    {
+      "path": "UPSTREAM_REVISION",
+      "beforeSha256": null,
+      "afterSha256": "b3e0fb7648ba41a01e5b64caa7a36b627feafec9ea183daefbf24d87d933e6d3",
+      "mode": 420
+    },
+    {
+      "path": "changelog.d/features/20261021-pieroot-native-subscriptions.md",
+      "beforeSha256": null,
+      "afterSha256": "06e66110ed2935251ed7ed80d21f431f94ae2a2473ec6bdafb3e25c794d02317",
+      "mode": 420
+    },
+    {
+      "path": "next.config.mjs",
+      "beforeSha256": "1bd02af1eac9216ec67a5a1f136e5ee919b6fa4efc0f12ded998a5ee9d323444",
+      "afterSha256": "45618e3df70efdaec99ec6520d0d1f883e38cbcb346369126c15107bdc9b572c",
+      "mode": 420
+    },
+    {
+      "path": "open-sse/handlers/chatCore.ts",
+      "beforeSha256": "53e2917840ac1ec24dc2c2c322e1cb016643f0375fd8ae864590a3a82d1ed080",
+      "afterSha256": "7aa012d701159898a4bf803cbb4573bdcbb8d0240216ccea8a291abe06af3105",
+      "mode": 420
+    },
+    {
+      "path": "open-sse/handlers/chatCore/executeProviderRequest.ts",
+      "beforeSha256": "19355572d02601ef2e5ac934be18bf0cdacb8c4cd5758a577d2bc22df41c95ef",
+      "afterSha256": "33ab8005159133b29ac2a9c155750e20a9618440e233ae065bb28208c343666a",
+      "mode": 420
+    },
+    {
+      "path": "open-sse/handlers/chatCore/nonStreamingResponse.ts",
+      "beforeSha256": "e4ac551e47b9a58426ec6854c87c5c8c9fcfc02f19eb18af46b4b93dc675833d",
+      "afterSha256": "d52c34d48c13a89ee4492affeb2b6e22a9a98f44045ce47446c5e4cc6c36d6d7",
+      "mode": 420
+    },
+    {
+      "path": "open-sse/handlers/chatCore/streamingResponse.ts",
+      "beforeSha256": "3051bb7c59d6fdb7c8a248a351868ec9859a3314dd9ed6d181a807641f3c996f",
+      "afterSha256": "11365c249adf57591f9090035f8c01da272e97fe10baa28aa5aa551d28ee07ad",
+      "mode": 420
+    },
+    {
+      "path": "open-sse/handlers/chatCore/streamingTail.ts",
+      "beforeSha256": "36c0a746df209d467d2b4b44eccfcba3b9574369e69bd8991341dd77e4d07316",
+      "afterSha256": "7610a7d8a3aa62c669184cf553e6628a7af76a980848ee7bf5effd23beb02344",
+      "mode": 420
+    },
+    {
+      "path": "open-sse/services/autoCombo/subscriptionLadder.ts",
+      "beforeSha256": "b3b71ef1d3d04eca58fc5281bbd0504a9bb35ae10b4fbb5f0fe6d109def41530",
+      "afterSha256": "8f417937d624c80626ee880e9b56d906c97ddb2ea7566699ac4107a0831e1382",
+      "mode": 420
+    },
+    {
+      "path": "open-sse/services/combo/comboAttemptLoop.ts",
+      "beforeSha256": "047b73d8233894816e0cd3577ef4efbd5b5cab81d3d3cd159906800632619a62",
+      "afterSha256": "0f7f9fff866b501c852817a1eb6842d7bdbee32c6301ced8c2d6bf13862ab233",
+      "mode": 420
+    },
+    {
+      "path": "open-sse/services/combo/executeTargetAttempt.ts",
+      "beforeSha256": "5b486edfdfda72b4c57e0d4c830612ba636dc6e372a54d1666b3d70d0f0602aa",
+      "afterSha256": "6e429338e4f0f77bac308f905866a627d57f1e70d8962580388b728ed75f6254",
+      "mode": 420
+    },
+    {
+      "path": "open-sse/services/combo/nativeSubscriptionFallback.ts",
+      "beforeSha256": null,
+      "afterSha256": "d61528e69c42c1bc42379750c0ebe078a5408d02b781b92d72bed0f7f4e3aba3",
+      "mode": 420
+    },
+    {
+      "path": "open-sse/services/combo/roundRobinCombo.ts",
+      "beforeSha256": "87bc4548d2b60d5e324f80e229a63d0d65bd2237ef17cc830349893d868b0b76",
+      "afterSha256": "d0c351f9981052b7beaaac5b979d9fb9481f80ac9ac74594fc71331b1543bb11",
+      "mode": 420
+    },
+    {
+      "path": "open-sse/services/combo/runtimeUnits.ts",
+      "beforeSha256": "59e47b0c672b7b58812e5353ee00ba47620b23358ce473047cd40fe9be541f35",
+      "afterSha256": "c42b6b0b5c1797496d4fc0c38677fa88555a34cda75ff124153fbbdd30e1949c",
+      "mode": 420
+    },
+    {
+      "path": "open-sse/services/combo/targetTimeoutRunner.ts",
+      "beforeSha256": "f5380eb295b7d4d07dedce8c0d1553299c95a01802b74d3999c2c612f8dc4e31",
+      "afterSha256": "bb949b9d5b846a5cfc7c97864931ccee624252dd92afeb90146b359d748a06c5",
+      "mode": 420
+    },
+    {
+      "path": "src/app/(dashboard)/dashboard/api-manager/ApiManagerPageClient.tsx",
+      "beforeSha256": "1c1a95b344919b009af119e89a1893db5ee00c25617ebde9a1230af21b132444",
+      "afterSha256": "b4b0df7e157ea97bac72786c02a330f88d1d5449bec8ee05c9a624d435e433d0",
+      "mode": 420
+    },
+    {
+      "path": "src/app/(dashboard)/dashboard/api-manager/[id]/access/tabs/ConnectionsTab.tsx",
+      "beforeSha256": "ae47b9dc10c0ae3970fc7f318bc936cf81ea6d72a92aa5a49f7a298ad2b74754",
+      "afterSha256": "2295e9cd9488650ab13ed50cb9df257afa88178144023f002d58938dde31cb25",
+      "mode": 420
+    },
+    {
+      "path": "src/app/(dashboard)/dashboard/api-manager/components/ProviderConnectionPermissionList.tsx",
+      "beforeSha256": "1b0d90d43a69b537961b9f827ff049453b484b34a7d632fc20a84ac6654b52fe",
+      "afterSha256": "fadc5e7c8e6257b8c9d88194e32087bc2417f87ed4ed2a3c8c4f1c7e6c419ac3",
+      "mode": 420
+    },
+    {
+      "path": "src/app/(dashboard)/dashboard/costs/CostOverviewTab.tsx",
+      "beforeSha256": "04a1f0416d28c9f4bc2819673acf7332630e180689e63ff8fd2db2ef2eff4d60",
+      "afterSha256": "38dd70e3d12cb732cb37d95027e4c0b8af512e67d5ee035822b5fab2815a2392",
+      "mode": 420
+    },
+    {
+      "path": "src/app/(dashboard)/dashboard/costs/components/TopListCard.tsx",
+      "beforeSha256": "124330838b9837a7ab306c488066f118033be42c8605026c7ff0239fc843e040",
+      "afterSha256": "d2214d80acbded6d885280abe74de87fffe3af348203b5f3b2dc04732c26d7e9",
+      "mode": 420
+    },
+    {
+      "path": "src/app/(dashboard)/dashboard/costs/costExplorerUtils.ts",
+      "beforeSha256": "7375606b8a9013c4dba12614a228e47cc4ac003753e6100034daf6eddade3a2c",
+      "afterSha256": "0a504e4685a3c0d755fb413e2f52ae69ffbe69b699fd89ca8e0c84cabb16e3e0",
+      "mode": 420
+    },
+    {
+      "path": "src/app/(dashboard)/dashboard/providers/[id]/components/ConnectionQuotaPanel.tsx",
+      "beforeSha256": "2185b4d4ee2cd8d1609fd48a8cf46e493ecdd940f274cf02931e611987811b0a",
+      "afterSha256": "5beb6eec7f540740fda3ede0e4d8ff10eadeb79730dc248a79b17fa39ae6ad3d",
+      "mode": 420
+    },
+    {
+      "path": "src/app/(dashboard)/dashboard/providers/[id]/components/ConnectionRow.tsx",
+      "beforeSha256": "6c310b7cd1e4c45ec30a51b6a48d768dbfe1ce30294c48255de922c6df7875a9",
+      "afterSha256": "f92c49c0f8e48f0189551166bf01fbeb9bdb7c986a2a6b619b3ee63131c3c274",
+      "mode": 420
+    },
+    {
+      "path": "src/app/(dashboard)/dashboard/providers/[id]/components/ConnectionsListPanel.tsx",
+      "beforeSha256": "096f7e1b76976b812dbedae1842cfeec9cdc610867a217630575ab0210823160",
+      "afterSha256": "79422e2dacb51ec9b39cd4bb59b3c689e126f3ca0c327bdd5dd15788d0a8a015",
+      "mode": 420
+    },
+    {
+      "path": "src/app/(dashboard)/dashboard/settings/components/NativeSubscriptionRoutingCard.tsx",
+      "beforeSha256": null,
+      "afterSha256": "195cb5596e4c908ace84a09d62b7ff2f437a9fc94e88a52f3df64adcd25d4604",
+      "mode": 420
+    },
+    {
+      "path": "src/app/(dashboard)/dashboard/settings/components/ProviderAccountRoutingCard.tsx",
+      "beforeSha256": "a8afa3298ce19cbd794c9ee2f80c5e8f611519d05fe824f12d78e4467eeaa6c9",
+      "afterSha256": "ce1c845376899c410f033b5fc6a1ac9063785ceadbb31c8b1b22e6d2914e3aac",
+      "mode": 420
+    },
+    {
+      "path": "src/app/(dashboard)/dashboard/settings/components/QuotaPreflightCard.tsx",
+      "beforeSha256": "cc32d257bf6d607ccc92c0d59077fdd43653feb5c08308d2731f364343d08979",
+      "afterSha256": "df364491c2ce2ef9e0baa41c649f6386a067f03edc701be4c89eec06c0ea24fa",
+      "mode": 420
+    },
+    {
+      "path": "src/app/(dashboard)/dashboard/settings/components/RoutingTab.tsx",
+      "beforeSha256": "ef7d254d6a90b13ac82756d697c3b4a2200d34409aafd7aaa73332da646d9c2f",
+      "afterSha256": "74562c11035718086cfe1531b327b7a9c3365fb68b962167a3cebeaa9757c97e",
+      "mode": 420
+    },
+    {
+      "path": "src/app/(dashboard)/dashboard/settings/routing/page.tsx",
+      "beforeSha256": "7517132ba0b7a59d59c14d0d14a519e0c11ac1a9d153c8081117478e7a264c0b",
+      "afterSha256": "19ea2c7f31ccd542d24874784d5ac9c644bc7a2ca7391706b2b8f4f3c210ef1e",
+      "mode": 420
+    },
+    {
+      "path": "src/app/api/providers/[id]/quota-capacity/route.ts",
+      "beforeSha256": null,
+      "afterSha256": "9eed51c2d7de6f3cbab479bfef44de7c70628763142ea71a6bae6fa52e69484f",
+      "mode": 420
+    },
+    {
+      "path": "src/app/api/usage/analytics/route.ts",
+      "beforeSha256": "8c54c44906141ae8a08eb76212cce4f6a3e4b3e25a0614e980e632462ce6401e",
+      "afterSha256": "b835254462cb78ec66a0f150bb6328bd196eb6cf16aa1abcc1ef23bde37ad475",
+      "mode": 420
+    },
+    {
+      "path": "src/app/api/v1/_helpers/ompApi.ts",
+      "beforeSha256": null,
+      "afterSha256": "833da750915fc0f593b430be735ce0fe513832d7786feb84c530f0c14680f158",
+      "mode": 420
+    },
+    {
+      "path": "src/app/api/v1/omp/models/route.ts",
+      "beforeSha256": null,
+      "afterSha256": "88b05b17e833be1c129514da7438cc1092ff1baab916855cd55d7b19805bd89c",
+      "mode": 420
+    },
+    {
+      "path": "src/app/api/v1/usage/quota/route.ts",
+      "beforeSha256": null,
+      "afterSha256": "52ed3186d8117778804a0c08a0533d5ead0cf34e7df808232135f46780f35644",
+      "mode": 420
+    },
+    {
+      "path": "src/i18n/messages/en.json",
+      "beforeSha256": "02869ee18c3b07ec2b58efcc0b438951a6cc508ce5f9b5fe51dde60fe4a2e8ca",
+      "afterSha256": "79eb7390c319622ec5c8de11c7f131f2fdad39a031c6b4cf9e4385cd041b0009",
+      "mode": 420
+    },
+    {
+      "path": "src/i18n/messages/ko.json",
+      "beforeSha256": "0b74c5cca3b1fa6d577a4e8261313fe1dadabd7c084d3b206c9510b3a7cb25fe",
+      "afterSha256": "61d60dd20d28d885187a1fd26d01952463dda03cc2c99e9933ae1f7dd5cf33e2",
+      "mode": 420
+    },
+    {
+      "path": "src/lib/db/connectionRuntimeState.ts",
+      "beforeSha256": "fbbc15e6cdf5e5ae02d16372ab75f991aaab0a4ae5af0b4b9d05574d9dfcfa35",
+      "afterSha256": "480fbdce08432cc25d0b47ec516359da104d3bf60f02bc7087225e6ccdfa17b5",
+      "mode": 420
+    },
+    {
+      "path": "src/lib/db/quotaCapacity.ts",
+      "beforeSha256": null,
+      "afterSha256": "537dff338dadec89ddf256a8c62168ebe6de154caba44e0fbb4edc70b681dbcf",
+      "mode": 420
+    },
+    {
+      "path": "src/lib/db/quotaSnapshots.ts",
+      "beforeSha256": "fc4f69ce5e7797db92f6436776b06854413f8c367cd6dba477d6149b6c5d3027",
+      "afterSha256": "64af65bed5366b8d193bed1da164a4d7a04529e804afe0c8aefcf5076763eb81",
+      "mode": 420
+    },
+    {
+      "path": "src/lib/db/settings.ts",
+      "beforeSha256": "4384fac9915c2ea0b61e5c8a5841f5e510a6232aac0c7884e76f7d7265224f83",
+      "afterSha256": "ba7f302ab7ea33deff7b2a3e2a53afe0db4410637c01d3301e7f3eb631e45fc0",
+      "mode": 420
+    },
+    {
+      "path": "src/lib/db/usageAnalytics.ts",
+      "beforeSha256": "943a0f89104b9b2975db64f9a309f304fbbd7d20d56c7b14ba629c77b5c1debf",
+      "afterSha256": "0a1d5c375ceb758d571560b682b8a6b1f575f00f838f65f8d25b05e1f99765df",
+      "mode": 420
+    },
+    {
+      "path": "src/lib/db/usageAnalytics/sources.ts",
+      "beforeSha256": "7106ec9e7e829a495476c41b4161ee51fa96ba8a52ea34593c83e5af7e1a7bfd",
+      "afterSha256": "14f7a0ca20aeaa63a216f9f534376112a61768207f4fb0c857baa230d12425b3",
+      "mode": 420
+    },
+    {
+      "path": "src/lib/quota/capacityIdentity.ts",
+      "beforeSha256": null,
+      "afterSha256": "7b91ebea654f073613328457f74bb8e7cd564600d5dbfd2cf20805772c3024c2",
+      "mode": 420
+    },
+    {
+      "path": "src/lib/services/quotaCapacity.ts",
+      "beforeSha256": null,
+      "afterSha256": "0dcdbed933f15a0bf8824d21f8472a2e2a3719b7c2db4ed6e51e71c03b812e14",
+      "mode": 420
+    },
+    {
+      "path": "src/lib/streamingCredentialTransform.ts",
+      "beforeSha256": "d34d40462c710f3dd28bce5bd3e65df1360a3a05c7370c9c81000b7e0cc69546",
+      "afterSha256": "1296aef605a3914aae15a7ae5e6c2cac51c077e081daab89177bac39c19d0dd0",
+      "mode": 420
+    },
+    {
+      "path": "src/lib/usage/accountIdentity.ts",
+      "beforeSha256": "5149d0931ea47459e1745664a10df1a40abf8545d27a992176940c61960975b7",
+      "afterSha256": "2a56a5ec8e13d3221d3914e386d574b4976385c632e54bbb736edc52faf9fcb2",
+      "mode": 420
+    },
+    {
+      "path": "src/lib/usage/callLogs.ts",
+      "beforeSha256": "2d0ed83ce4deb7adf5c9558ba3499dec60ec76d01b397ab5100a4965e5f07cc0",
+      "afterSha256": "30ce38dd512b64dc44f79fb9baa9f20c42482bfa60db5303791a358fb08e917c",
+      "mode": 420
+    },
+    {
+      "path": "src/lib/usage/providerDisplayNames.ts",
+      "beforeSha256": "868fabd666874cc04355a3a14669ef9cdddad51957304ed4acd7bac02125493d",
+      "afterSha256": "e032317a4e74be8161db2850539672d5db0cb25713e919453797821779283c36",
+      "mode": 420
+    },
+    {
+      "path": "src/lib/warmupScheduler.ts",
+      "beforeSha256": "47c5e05fac5ee5587a918c0a21f9163641eda925622e6d8f4024099f2d63fffe",
+      "afterSha256": "aaff71006fb554308aa3e71fb44295c13d447580cba21b2b1e05295b02dde258",
+      "mode": 420
+    },
+    {
+      "path": "src/lib/warmupScheduler/core.ts",
+      "beforeSha256": "12c91f91fd31208eccb298d4a676f6a9a526929a4cc5f48da6461b8200c84e9f",
+      "afterSha256": "70e5464373f7865394e69318e57f3f95143b2f1c890b133cde74601a2fe0236e",
+      "mode": 420
+    },
+    {
+      "path": "src/proxy.ts",
+      "beforeSha256": "5f2b1c1525a02f498eb0ec73135c5857a1cdfeee83ffdc40ae9a4b5e3224f175",
+      "afterSha256": "89da959340af04f0db3ae492079e3ba8628e5e18547f85d296526ea05c5692b7",
+      "mode": 420
+    },
+    {
+      "path": "src/server/authz/classify.ts",
+      "beforeSha256": "0cba240a6f3553927821eb1cab513d23aae2ebeb899aa38dc1fad30e2026d128",
+      "afterSha256": "b4edf292092feae84b0c4c8992387614588b043cfb7e62d8503e4fe48f28d032",
+      "mode": 420
+    },
+    {
+      "path": "src/shared/constants/securityImpactingSettings.ts",
+      "beforeSha256": "1a9d0ef12b753a5dc35a3e3e0668ad0fae86b5cb72558a6b8c711772418610f1",
+      "afterSha256": "3ebf9d4105d751e7388f58fcedbb9ccdefe3a9fcadfee80222ad12796b2f35a9",
+      "mode": 420
+    },
+    {
+      "path": "src/shared/validation/settingsSchemas.ts",
+      "beforeSha256": "3bb4404ab4621ed2d2a9995be5d975576b8a0b289ca3e83b5a3f971b4b9188cb",
+      "afterSha256": "d0a9994d5f04d26d6373c0959be4cf6b4a529ab9fe4570bc92ccf306d5da2fa0",
+      "mode": 420
+    },
+    {
+      "path": "src/sse/handlers/chat.ts",
+      "beforeSha256": "49353f0d40e3a7bdde7891a60a6d62d2e06e998bfabb6e3970af98cd914b6e4f",
+      "afterSha256": "958f8b1079369fca0ca9a28eb1b47a6b1c939fb0405a876575c7f597936a69fc",
+      "mode": 420
+    },
+    {
+      "path": "src/sse/handlers/chat/nativeSubscriptionRouting.ts",
+      "beforeSha256": null,
+      "afterSha256": "0adc5e7289084278215b7126d436d89e70b7845d3a62bcab86597cba910e92dd",
+      "mode": 420
+    },
+    {
+      "path": "src/sse/handlers/chat/responsePolicies.ts",
+      "beforeSha256": "a6ca831540787ae2834b4c00956eb728795b5457086abf523cc25d32b55335f1",
+      "afterSha256": "6a2846e6dc74c4ae09f702607bdf10e666c47fbc8ad34ed84edad29942ead6b6",
+      "mode": 420
+    },
+    {
+      "path": "tests/integration/native-subscription-paid-fallback.test.ts",
+      "beforeSha256": null,
+      "afterSha256": "4a516d491fc21e75a7c957bd85d45df470445397a8acaf06c6f9150178020f9d",
+      "mode": 420
+    },
+    {
+      "path": "tests/unit/authz/codex-lb-native-alias.test.ts",
+      "beforeSha256": null,
+      "afterSha256": "4ff7053bb3c9995ef476559cc153d337f15addbe8e69a0f6bfda09dafe7ad7ac",
+      "mode": 420
+    },
+    {
+      "path": "tests/unit/combo-target-timeout-runner.test.ts",
+      "beforeSha256": "fe2cceca501a4af3fa2343804b3cbdf1980a36a5e1de21ee848c0d4800ebf361",
+      "afterSha256": "5ab16e32d2a69fde57607db40563780694815d011da3ef28d223e33686af3986",
+      "mode": 420
+    },
+    {
+      "path": "tests/unit/combo/execute-target-attempt.test.ts",
+      "beforeSha256": "708dc04103fc0c5728f64a0d0178a361115d67b081acef34ff0bc7efcfdf9fd6",
+      "afterSha256": "14d085ed844e1f37bb9d31c9318f5f8ab9c505e446175548b136f6b657d45d14",
+      "mode": 420
+    },
+    {
+      "path": "tests/unit/omp-api-slice.test.ts",
+      "beforeSha256": null,
+      "afterSha256": "9bac93d25c6c1a82b514d888ebeaaf7d26d8598d0ad95d3e17bac20f475cdfed",
+      "mode": 420
+    },
+    {
+      "path": "tests/unit/omp-auth-scope.test.ts",
+      "beforeSha256": null,
+      "afterSha256": "74413e8da587eccfcebb275eea3030846dc850b5a6e2edc2f75bb560ef73da6f",
+      "mode": 420
+    },
+    {
+      "path": "tests/unit/provider-account-routing-card.test.tsx",
+      "beforeSha256": null,
+      "afterSha256": "5947ca24a3b70649e9cca6412e1a763d0d65eb868d51883688da4da2a42328ce",
+      "mode": 420
+    },
+    {
+      "path": "tests/unit/quota-capacity-continuity.test.ts",
+      "beforeSha256": null,
+      "afterSha256": "fbfeb130e1f25476ed08161db46c557cb4cee132a98b91b6366d263ed4a76419",
+      "mode": 420
+    },
+    {
+      "path": "tests/unit/quotaCapacity.test.ts",
+      "beforeSha256": null,
+      "afterSha256": "56a172b770479861e9054f17a1c663c03eccbcc23db9cab84ad5edf0d05d47e5",
+      "mode": 420
+    },
+    {
+      "path": "tests/unit/quotaCapacityIdentity.test.ts",
+      "beforeSha256": null,
+      "afterSha256": "3cc7b75e7db625511b65dcfb9a0cbfc624da267131153026426ded15d9ada2a1",
+      "mode": 420
+    },
+    {
+      "path": "tests/unit/services/native-subscription-fallback.test.ts",
+      "beforeSha256": null,
+      "afterSha256": "b8bf6a8dabf1c1e3e37ab962bcb2a01a5df3bb441fe6d9e3ce2d79ccae623633",
+      "mode": 420
+    },
+    {
+      "path": "tests/unit/ui/native-subscription-routing-card.test.tsx",
+      "beforeSha256": null,
+      "afterSha256": "eacd3c8abaaa401993ccc2459645c0c7ae67c4bc0ac354477dd32d57bab2f515",
+      "mode": 420
+    },
+    {
+      "path": "tests/unit/usage-account-analytics-route.test.ts",
+      "beforeSha256": "377d2d8e3922552b2400e746b446a0d9759757beb72d79022a0d21a7a6ae7a76",
+      "afterSha256": "fe9dcc4101a06aa4094abac9377bf8109215f9cb4ac0c937e896026bb569b435",
+      "mode": 420
+    },
+    {
+      "path": "tests/unit/usage-account-identity.test.ts",
+      "beforeSha256": "e496d7b5d5665dc17bbde3553220bac91a194e145a7cac2e5c40d978578ba166",
+      "afterSha256": "3990acb4e51941a25c663998469c05bd20eca7dc68d5c87191c318989b57cdbc",
+      "mode": 420
+    },
+    {
+      "path": "tests/unit/usage-analytics-route.test.ts",
+      "beforeSha256": "7104755ebf9d23c94527badffe9affb9ac9c441ccc35763b4479c8a7fe735d86",
+      "afterSha256": "37cf42a54af9baaf479a3fde7b61ef66cd3f448617e87dbab04ad8ce4fa89384",
+      "mode": 420
+    },
+    {
+      "path": "tests/unit/warmupScheduler.test.ts",
+      "beforeSha256": "94ff186828a5ab8029b76620548a068ba0592bb373fcad697802ec6e4526b3d3",
+      "afterSha256": "dbfb4ab9ab4a0fab5bcfa7ce6c046cfd77fdbd11ffdff84ae64da46fa5b0a5b3",
+      "mode": 420
+    }
+  ]
+}

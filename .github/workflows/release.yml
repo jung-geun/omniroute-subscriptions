@@ -1,0 +1,59 @@
+name: Verify and release extension
+on:
+  push:
+    branches: [main]
+    tags: ['v*']
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm test
+      - name: Apply the shipped package to exact upstream source
+        run: |
+          set -euo pipefail
+          npm pack --ignore-scripts --pack-destination "$RUNNER_TEMP"
+          version=$(node -p 'require("./package.json").version')
+          npm install "$RUNNER_TEMP/omniroute-subscriptions-$version.tgz" --prefix "$RUNNER_TEMP/installed" --ignore-scripts --offline --no-audit --no-fund
+          curl --fail --silent --show-error --location --output "$RUNNER_TEMP/upstream.tar.gz" https://codeload.github.com/cheaper-inference/OmniRoute/tar.gz/edab7c3a59bf7d6f040d581dbda3a46adbee0d57
+          mkdir "$RUNNER_TEMP/upstream"
+          tar -xzf "$RUNNER_TEMP/upstream.tar.gz" --strip-components=1 -C "$RUNNER_TEMP/upstream"
+          CLI="$RUNNER_TEMP/installed/node_modules/omniroute-subscriptions/bin/cli.mjs"
+          node "$CLI" check --target "$RUNNER_TEMP/upstream"
+          node "$CLI" apply --target "$RUNNER_TEMP/upstream"
+          node "$CLI" check --target "$RUNNER_TEMP/upstream"
+          node "$CLI" remove --target "$RUNNER_TEMP/upstream"
+          node "$CLI" check --target "$RUNNER_TEMP/upstream"
+  release:
+    if: github.event_name != 'pull_request'
+    needs: verify
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: write
+    concurrency:
+      group: extension-release
+      cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Publish changed stable extension
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          version=$(node -p 'require("./package.json").version')
+          [[ "$version" =~ ^[0-9]+\.[0-9]+\.[0-9]+$ ]]
+          tag="v$version"
+          if gh release view "$tag" >/dev/null 2>&1; then exit 0; fi
+          npm pack --ignore-scripts
+          sha256sum "omniroute-subscriptions-$version.tgz" > SHA256SUMS
+          gh release create "$tag" "omniroute-subscriptions-$version.tgz" SHA256SUMS --target "$GITHUB_SHA" --title "omniroute-subscriptions $version" --generate-notes
