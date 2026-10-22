@@ -2,5 +2,9 @@
   "upstreamCommit": "edab7c3a59bf7d6f040d581dbda3a46adbee0d57",
   "upstreamGitTree": "8e4e858856b64cde02b0a44212a94836f0ac210d",
   "allUpstreamBlobsVerified": 26003,
+  "explicitlyRemovedUpstreamPaths": [
+    "tests/unit/i18n-block-extra-usage-copy.test.ts",
+    "tests/unit/ui/provider-quota-widget-auto-refresh-label-4611.test.tsx"
+  ],
   "intentionallyPreservedUpstreamPaths": []
 }
