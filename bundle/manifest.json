@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "name": "omniroute-subscriptions",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "upstream": {
     "version": "3.8.52",
     "commit": "edab7c3a59bf7d6f040d581dbda3a46adbee0d57",
@@ -29,7 +29,7 @@
     {
       "path": "changelog.d/features/20261021-pieroot-native-subscriptions.md",
       "beforeSha256": null,
-      "afterSha256": "dd491bd67e87177428c1e6cff005b2bc8465d7d30e7f26eb643955c6cd4429bb",
+      "afterSha256": "a17ab5ef11bdfb8ebff592e74e6fba3c7c228d0c33eb75786823cb459f3c0bc8",
       "mode": 420
     },
     {
@@ -143,7 +143,7 @@
     {
       "path": "open-sse/services/quotaPreflight.ts",
       "beforeSha256": "926c480ecf9e8406d55810d6e7767cd9f33806ffb1ccb1dc80e703b8063c7a01",
-      "afterSha256": "db9bcd88903a3d606c3d8de7a77fd55cd0f90a4504dc9fc367fd4ea4a5d9aadf",
+      "afterSha256": "384296eacb52a9596c11de96e61876c785320a1b438a42bbad826d15a96788ed",
       "mode": 420
     },
     {
@@ -581,13 +581,13 @@
     {
       "path": "src/sse/handlers/chat.ts",
       "beforeSha256": "49353f0d40e3a7bdde7891a60a6d62d2e06e998bfabb6e3970af98cd914b6e4f",
-      "afterSha256": "95ef0a92a623323ac6a9f7913f77563159677d2fa40fd330a69e4a1b963cc0a8",
+      "afterSha256": "798534099233e4cbb977423965ae0c4ba59ea8c82fb76063753fb605fc3e60d4",
       "mode": 420
     },
     {
       "path": "src/sse/handlers/chat/nativeSubscriptionRouting.ts",
       "beforeSha256": null,
-      "afterSha256": "205ad2a94f6f8afce49456997da8aa171964a0f7ddf1f9e5c7547bc969b6e9fe",
+      "afterSha256": "2a8650b3877c3c5707537fe65a6ec3adae0bbde1bd339538cba92bd65f426643",
       "mode": 420
     },
     {
@@ -605,7 +605,7 @@
     {
       "path": "src/sse/services/auth.ts",
       "beforeSha256": "dff22592b6aac4d24445389e44344fdcc19ba02bcd7435c570e18e0c9f1a4c9e",
-      "afterSha256": "a207cf2680f80620387d5a3b8e626ceb0c5514611fc289bc233d88ad40f3e7ae",
+      "afterSha256": "8bbe1f2666f2d2536e8318b736a0943584b57daf48f1cd31531d0b966c2a6a63",
       "mode": 420
     },
     {
@@ -615,9 +615,15 @@
       "mode": 420
     },
     {
+      "path": "tests/integration/codex-weekly-first-credits.test.ts",
+      "beforeSha256": null,
+      "afterSha256": "9fd35448cc02c17ea84168e7c917ce28d157f1b8250448053b061a0935b64d44",
+      "mode": 420
+    },
+    {
       "path": "tests/integration/native-credit-usage-reporting.test.ts",
       "beforeSha256": null,
-      "afterSha256": "fad93492bb02e930af10f3e6a1d2117ef6c9e2af3d973f390b6c69dcaddac4b7",
+      "afterSha256": "ca84116d9fb6cf4e00a4db1c99609b488e62eaf8cbbfe3fcc4c5d64f45cc4f2c",
       "mode": 420
     },
     {
