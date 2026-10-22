@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "name": "omniroute-subscriptions",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "upstream": {
     "version": "3.8.52",
     "commit": "edab7c3a59bf7d6f040d581dbda3a46adbee0d57",
@@ -29,7 +29,7 @@
     {
       "path": "changelog.d/features/20261021-pieroot-native-subscriptions.md",
       "beforeSha256": null,
-      "afterSha256": "df5cf70197150f4980160c15d0cb6784cbe107693e3962cb33c8e159cf2d0d62",
+      "afterSha256": "f6ff1cd516c3a1cae48e620574fce85f540790067b20bcec1bfc78a2cae2d433",
       "mode": 420
     },
     {
@@ -203,13 +203,13 @@
     {
       "path": "src/app/(dashboard)/dashboard/providers/[id]/components/CodexCreditLimitFields.tsx",
       "beforeSha256": null,
-      "afterSha256": "d8f7267f76a86676dab20d6db6d1d2b93013fecd9e575523eaf85850bdaf882f",
+      "afterSha256": "3577a4443db9b9a1c9dadbef649d8de4ef19c646dcca2ce018605e557dc25a4f",
       "mode": 420
     },
     {
       "path": "src/app/(dashboard)/dashboard/providers/[id]/components/CodexResetCreditOverview.tsx",
       "beforeSha256": null,
-      "afterSha256": "fab0326dcd82a348422afb1dc27eb743730679777c5dbf6a30f577c9807d75f1",
+      "afterSha256": "495a1565e6989dc978a7ad2235affcb9c9dea0f70040473e1f4a725cd23ec54d",
       "mode": 420
     },
     {
@@ -797,7 +797,7 @@
     {
       "path": "tests/unit/ui/codex-credit-limit-fields.test.tsx",
       "beforeSha256": null,
-      "afterSha256": "3eaedefcb4566a327513f40a2d46fed607014cd4dea0c309a8a6ffc5125ed259",
+      "afterSha256": "585c8a2ee8afe3af7fa2762bf6e537e9a1fa9c883d49505116d3e9677c7249cd",
       "mode": 420
     },
     {
