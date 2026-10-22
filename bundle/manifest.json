@@ -29,7 +29,7 @@
     {
       "path": "changelog.d/features/20261021-pieroot-native-subscriptions.md",
       "beforeSha256": null,
-      "afterSha256": "6b967382c42866a17d414659a8aad03c860bc9aa15548dfb2df138d0a7ea548f",
+      "afterSha256": "dd491bd67e87177428c1e6cff005b2bc8465d7d30e7f26eb643955c6cd4429bb",
       "mode": 420
     },
     {
@@ -89,7 +89,7 @@
     {
       "path": "open-sse/services/codexQuotaFetcher.ts",
       "beforeSha256": "f9c763dcc89dc4e3639edae64c4235b977b79f3daf28c24ea1d81158ffb5e0f7",
-      "afterSha256": "e8f8f7be3b6b10d7634cc8fa83b89107d399ff2c1defe3ba6bc8ebb0d42e4f65",
+      "afterSha256": "e9870aa637d296a8b970087881e448e3b7a28f05c6b63baaa691bc6dc5d54788",
       "mode": 420
     },
     {
@@ -143,7 +143,7 @@
     {
       "path": "open-sse/services/quotaPreflight.ts",
       "beforeSha256": "926c480ecf9e8406d55810d6e7767cd9f33806ffb1ccb1dc80e703b8063c7a01",
-      "afterSha256": "236a63b41c71e2b6dbf6970478fc8bba125fe13267116111da192748078c078b",
+      "afterSha256": "db9bcd88903a3d606c3d8de7a77fd55cd0f90a4504dc9fc367fd4ea4a5d9aadf",
       "mode": 420
     },
     {
@@ -201,6 +201,12 @@
       "mode": 420
     },
     {
+      "path": "src/app/(dashboard)/dashboard/providers/[id]/components/CodexCreditLimitFields.tsx",
+      "beforeSha256": null,
+      "afterSha256": "a57f46f09f6369c70829df395e81fd9748916d86acf5fdc6c7a496c879e064b7",
+      "mode": 420
+    },
+    {
       "path": "src/app/(dashboard)/dashboard/providers/[id]/components/ConnectionQuotaPanel.tsx",
       "beforeSha256": "2185b4d4ee2cd8d1609fd48a8cf46e493ecdd940f274cf02931e611987811b0a",
       "afterSha256": "191494b1cf2abecaaa9c056eee03ef30f06228474002b3bc37236381a0e498ca",
@@ -209,7 +215,7 @@
     {
       "path": "src/app/(dashboard)/dashboard/providers/[id]/components/ConnectionRow.tsx",
       "beforeSha256": "6c310b7cd1e4c45ec30a51b6a48d768dbfe1ce30294c48255de922c6df7875a9",
-      "afterSha256": "a19d2494a9c9a0e12845f2ffafb7e3e8b6978fb9bd1298713250abd5026d4c70",
+      "afterSha256": "924ebfdfae8a28ec5d6d91581fbbe7c0e9d74eb111fd8d8a9a7168d6237b5a52",
       "mode": 420
     },
     {
@@ -257,7 +263,7 @@
     {
       "path": "src/app/(dashboard)/dashboard/providers/[id]/hooks/useProviderQuota.ts",
       "beforeSha256": "cefaf581854411c6b196fa658fd3d303b74b6cbbd98833c2bbc799344820bf6a",
-      "afterSha256": "29341989fa624099a927d6787a90c200a213454655076168870d0f19accd6ec5",
+      "afterSha256": "aae06e22f70bf3c0a6a3d1c6a7563b967937a84610a3c6848520ea5766ba7bbf",
       "mode": 420
     },
     {
@@ -351,6 +357,12 @@
       "mode": 420
     },
     {
+      "path": "src/app/api/usage/provider-limits/route.ts",
+      "beforeSha256": "b63b3e4913fcea42fa7b144cc58542cd23149763dfcb1e2868b4196b5d8a6148",
+      "afterSha256": "b0c9c3a4fb1fbe436bb1f3ba282f5765c8189422c966a27c443b51ad47321d4c",
+      "mode": 420
+    },
+    {
       "path": "src/app/api/v1/_helpers/ompApi.ts",
       "beforeSha256": null,
       "afterSha256": "833da750915fc0f593b430be735ce0fe513832d7786feb84c530f0c14680f158",
@@ -371,13 +383,13 @@
     {
       "path": "src/i18n/messages/en.json",
       "beforeSha256": "02869ee18c3b07ec2b58efcc0b438951a6cc508ce5f9b5fe51dde60fe4a2e8ca",
-      "afterSha256": "f723507cdc8a1041e0f7ea3ec51326112045c798bd6050f4b7549724e8929c34",
+      "afterSha256": "0bb56fe4c1aefc0f1a90b01c080eac9346eb6b2cfa681193411890cc84fd1d16",
       "mode": 420
     },
     {
       "path": "src/i18n/messages/ko.json",
       "beforeSha256": "0b74c5cca3b1fa6d577a4e8261313fe1dadabd7c084d3b206c9510b3a7cb25fe",
-      "afterSha256": "44f588228e6c9f5eea0a8096823f4682435237ad9a58e616e33c96106c78e833",
+      "afterSha256": "cf8c5de9a2a798aa222f9828e6e71a6c3479a505eefcc33fcd1de7488f33021f",
       "mode": 420
     },
     {
@@ -401,7 +413,7 @@
     {
       "path": "src/lib/db/providerLimits.ts",
       "beforeSha256": "7a3cf7cdc691b179551d253bda01c60cbe5b03d7b8fc9a7dc36d66d3ccbe6f9f",
-      "afterSha256": "254b9a3b1cee151082f1ff5c8082db065bd2308caba8d3bb79c7d059796b4f2c",
+      "afterSha256": "c0a459a7bd5ee6cd8aa9930593bf9d4e69f3adc409da5d1f436a05eaaa500ad3",
       "mode": 420
     },
     {
@@ -441,6 +453,12 @@
       "mode": 420
     },
     {
+      "path": "src/lib/providers/codexCreditSpend.ts",
+      "beforeSha256": null,
+      "afterSha256": "4c08513f69b36571c2ec96fa4398b11992c9e39a874518786a7e1f6062518918",
+      "mode": 420
+    },
+    {
       "path": "src/lib/providers/codexPaidCredits.ts",
       "beforeSha256": "92435726748270058d209e9ef3ca5f4700f09976d3e37f14ceaf6e4901e07570",
       "afterSha256": "fc92a306b0b812358a2befe900843bfe19f433be499de138d3d079faac0bfc8d",
@@ -450,6 +468,12 @@
       "path": "src/lib/providers/quotaCutoffOptIns.ts",
       "beforeSha256": "e7a083266937f7c0e7b1b922830b785ea0f7a0e77c8fc50019a85112f94c418d",
       "afterSha256": "a1242a64da6f2d8b58c6c778082550bb837f70ec1493750d7bc3a530aec90c8d",
+      "mode": 420
+    },
+    {
+      "path": "src/lib/providers/requestDefaults.ts",
+      "beforeSha256": "fd584d976905e1a62ff3e71ee4bc6aa4bf1f7eeb8703fb898955a7a19cca3eed",
+      "afterSha256": "a2bcb9b6abd92947030eadf893e41be1f88afb26e631746f4e74ea1942acf5e0",
       "mode": 420
     },
     {
@@ -581,7 +605,7 @@
     {
       "path": "src/sse/services/auth.ts",
       "beforeSha256": "dff22592b6aac4d24445389e44344fdcc19ba02bcd7435c570e18e0c9f1a4c9e",
-      "afterSha256": "db2788e5524cd7d0c503df8209b909fe06df979c33f9392127602c829f9a21fc",
+      "afterSha256": "a207cf2680f80620387d5a3b8e626ceb0c5514611fc289bc233d88ad40f3e7ae",
       "mode": 420
     },
     {
@@ -612,6 +636,12 @@
       "path": "tests/unit/chatcore-attempt-logging.test.ts",
       "beforeSha256": "21112839f09bcfcb3b7589b82ef1e389c697b36a1e4e97d1b1167fd12b40e2e6",
       "afterSha256": "0d5cdca9427172b59ffefd7157bfd363b18fd88427a934e48fb5a3fd09aed270",
+      "mode": 420
+    },
+    {
+      "path": "tests/unit/codex-credit-spend-limits.test.ts",
+      "beforeSha256": null,
+      "afterSha256": "43df3b138b5c6deec6f31d88f860b9a9e3351c6a9bdffc2927d90712ee2eff82",
       "mode": 420
     },
     {
@@ -726,6 +756,12 @@
       "path": "tests/unit/services/native-subscription-fallback.test.ts",
       "beforeSha256": null,
       "afterSha256": "b8bf6a8dabf1c1e3e37ab962bcb2a01a5df3bb441fe6d9e3ce2d79ccae623633",
+      "mode": 420
+    },
+    {
+      "path": "tests/unit/ui/codex-credit-limit-fields.test.tsx",
+      "beforeSha256": null,
+      "afterSha256": "1ff86ecebd124a8ed5183739f123bfbdeefd5f5840f677fd5cf633804c5ca359",
       "mode": 420
     },
     {
