@@ -29,7 +29,7 @@
     {
       "path": "changelog.d/features/20261021-pieroot-native-subscriptions.md",
       "beforeSha256": null,
-      "afterSha256": "3e3d4ffcdbf7e4e978c835a9f35a96822da66c114a8254940a2c97cf8acf65d0",
+      "afterSha256": "df5cf70197150f4980160c15d0cb6784cbe107693e3962cb33c8e159cf2d0d62",
       "mode": 420
     },
     {
@@ -465,6 +465,12 @@
       "mode": 420
     },
     {
+      "path": "src/lib/providerModels/syncedAutoAliases.ts",
+      "beforeSha256": "077b938465277fa2402938f50d6487c41d7a6cc1afb03a1313e3ea613d59ad8a",
+      "afterSha256": "12218adf0b4605cbdb7374dce1ab9332142cdd43b7391de40b67fa60d83480dd",
+      "mode": 420
+    },
+    {
       "path": "src/lib/providers/claudeExtraUsage.ts",
       "beforeSha256": "5b83eddb21a632768171d97585872a1916699e724d27fb7d2caff809048292fc",
       "afterSha256": "633be87c72ebc0b70e5b91aab0332c2434339017773fe9555d7ef80786454eff",
@@ -780,6 +786,12 @@
       "path": "tests/unit/services/native-subscription-fallback.test.ts",
       "beforeSha256": null,
       "afterSha256": "b8bf6a8dabf1c1e3e37ab962bcb2a01a5df3bb441fe6d9e3ce2d79ccae623633",
+      "mode": 420
+    },
+    {
+      "path": "tests/unit/synced-auto-aliases.test.ts",
+      "beforeSha256": "2505b7fcc6d2f068db95a4f2018b70caf3b76d7a7b9bb3b5edc049343c85007b",
+      "afterSha256": "bc31003adb486f3f82eace8ffef3c1458aaf915190ffda40bba60bfed8999765",
       "mode": 420
     },
     {
