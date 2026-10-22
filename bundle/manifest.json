@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "name": "omniroute-subscriptions",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "upstream": {
     "version": "3.8.52",
     "commit": "edab7c3a59bf7d6f040d581dbda3a46adbee0d57",
@@ -29,7 +29,7 @@
     {
       "path": "changelog.d/features/20261021-pieroot-native-subscriptions.md",
       "beforeSha256": null,
-      "afterSha256": "a17ab5ef11bdfb8ebff592e74e6fba3c7c228d0c33eb75786823cb459f3c0bc8",
+      "afterSha256": "3e3d4ffcdbf7e4e978c835a9f35a96822da66c114a8254940a2c97cf8acf65d0",
       "mode": 420
     },
     {
@@ -203,7 +203,13 @@
     {
       "path": "src/app/(dashboard)/dashboard/providers/[id]/components/CodexCreditLimitFields.tsx",
       "beforeSha256": null,
-      "afterSha256": "a57f46f09f6369c70829df395e81fd9748916d86acf5fdc6c7a496c879e064b7",
+      "afterSha256": "d8f7267f76a86676dab20d6db6d1d2b93013fecd9e575523eaf85850bdaf882f",
+      "mode": 420
+    },
+    {
+      "path": "src/app/(dashboard)/dashboard/providers/[id]/components/CodexResetCreditOverview.tsx",
+      "beforeSha256": null,
+      "afterSha256": "fab0326dcd82a348422afb1dc27eb743730679777c5dbf6a30f577c9807d75f1",
       "mode": 420
     },
     {
@@ -215,7 +221,7 @@
     {
       "path": "src/app/(dashboard)/dashboard/providers/[id]/components/ConnectionRow.tsx",
       "beforeSha256": "6c310b7cd1e4c45ec30a51b6a48d768dbfe1ce30294c48255de922c6df7875a9",
-      "afterSha256": "924ebfdfae8a28ec5d6d91581fbbe7c0e9d74eb111fd8d8a9a7168d6237b5a52",
+      "afterSha256": "741dcb3f92a926c53b65efec4eaa4bcb9f1134163508d939f26e63892df780aa",
       "mode": 420
     },
     {
@@ -246,6 +252,12 @@
       "path": "src/app/(dashboard)/dashboard/providers/[id]/components/modals/EditConnectionModal.tsx",
       "beforeSha256": "d6f13f003d8988a27f76abc6199b955d9da84336b5b3c560f7863d7b2ab52f96",
       "afterSha256": "b7251d0a6b298a4371f65330b3802d6c54ee59ba0ee34fc324adc2abd4675121",
+      "mode": 420
+    },
+    {
+      "path": "src/app/(dashboard)/dashboard/providers/[id]/components/useCodexResetCreditOverview.ts",
+      "beforeSha256": null,
+      "afterSha256": "10e32a7c133cc486312b2cc6b9e5e11329e1489d1aa1231a1cf87a1362759833",
       "mode": 420
     },
     {
@@ -345,6 +357,12 @@
       "mode": 420
     },
     {
+      "path": "src/app/api/usage/[connectionId]/route.ts",
+      "beforeSha256": "71ee7cca286ab899a77118c5c9f93bf39c154df5e6f5724e3c9ce52dbe089932",
+      "afterSha256": "7c14e3de837b1ca7270935b20a44013deea4c239840cbc0c90db9d343e2259c3",
+      "mode": 420
+    },
+    {
       "path": "src/app/api/usage/analytics/route.ts",
       "beforeSha256": "8c54c44906141ae8a08eb76212cce4f6a3e4b3e25a0614e980e632462ce6401e",
       "afterSha256": "bd7663d795cdf95732f80c5bf06a97e0dcd99607dfbc0998ff36f1970a352eed",
@@ -383,13 +401,13 @@
     {
       "path": "src/i18n/messages/en.json",
       "beforeSha256": "02869ee18c3b07ec2b58efcc0b438951a6cc508ce5f9b5fe51dde60fe4a2e8ca",
-      "afterSha256": "0bb56fe4c1aefc0f1a90b01c080eac9346eb6b2cfa681193411890cc84fd1d16",
+      "afterSha256": "a0d15ca4e8456f185a2d9e9432a3d29f6dfd9ef6307ea03afccb2f358a0ab039",
       "mode": 420
     },
     {
       "path": "src/i18n/messages/ko.json",
       "beforeSha256": "0b74c5cca3b1fa6d577a4e8261313fe1dadabd7c084d3b206c9510b3a7cb25fe",
-      "afterSha256": "cf8c5de9a2a798aa222f9828e6e71a6c3479a505eefcc33fcd1de7488f33021f",
+      "afterSha256": "752b98fc95953bcc583c027f78b21383b50599c5e5ffae41aac2c3196fb486cd",
       "mode": 420
     },
     {
@@ -647,7 +665,7 @@
     {
       "path": "tests/unit/codex-credit-spend-limits.test.ts",
       "beforeSha256": null,
-      "afterSha256": "43df3b138b5c6deec6f31d88f860b9a9e3351c6a9bdffc2927d90712ee2eff82",
+      "afterSha256": "ec3a629dc448753fb9e492ddf37aa7d6422549e341fd94cbdb2939d1186930d8",
       "mode": 420
     },
     {
@@ -767,7 +785,7 @@
     {
       "path": "tests/unit/ui/codex-credit-limit-fields.test.tsx",
       "beforeSha256": null,
-      "afterSha256": "1ff86ecebd124a8ed5183739f123bfbdeefd5f5840f677fd5cf633804c5ca359",
+      "afterSha256": "3eaedefcb4566a327513f40a2d46fed607014cd4dea0c309a8a6ffc5125ed259",
       "mode": 420
     },
     {
@@ -780,6 +798,12 @@
       "path": "tests/unit/ui/codex-paid-credits.test.tsx",
       "beforeSha256": "d2057429000de6ec936b2bbfdfb8720303e1d2c2a24cd5a129cbd9e326bdffc3",
       "afterSha256": "41e175c6aab2d285a968895cfa5418593f3ab73ed00a8fe0c0238fc9de24e373",
+      "mode": 420
+    },
+    {
+      "path": "tests/unit/ui/codex-reset-credit-overview.test.tsx",
+      "beforeSha256": null,
+      "afterSha256": "3e8aa79dcdab115ed68b9461afabbb2469dc671717f888585612f20f25e78cd3",
       "mode": 420
     },
     {
