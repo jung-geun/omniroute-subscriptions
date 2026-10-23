@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "name": "omniroute-subscriptions",
-  "version": "1.1.3",
+  "version": "1.1.4",
   "upstream": {
     "version": "3.8.52",
     "commit": "edab7c3a59bf7d6f040d581dbda3a46adbee0d57",
@@ -29,7 +29,7 @@
     {
       "path": "changelog.d/features/20261021-pieroot-native-subscriptions.md",
       "beforeSha256": null,
-      "afterSha256": "f6ff1cd516c3a1cae48e620574fce85f540790067b20bcec1bfc78a2cae2d433",
+      "afterSha256": "7c0355de62ce5396512a10f4a780eed0cbe75d09b5cca9a0c0774e4bd897d4e2",
       "mode": 420
     },
     {
@@ -215,7 +215,7 @@
     {
       "path": "src/app/(dashboard)/dashboard/providers/[id]/components/ConnectionQuotaPanel.tsx",
       "beforeSha256": "2185b4d4ee2cd8d1609fd48a8cf46e493ecdd940f274cf02931e611987811b0a",
-      "afterSha256": "191494b1cf2abecaaa9c056eee03ef30f06228474002b3bc37236381a0e498ca",
+      "afterSha256": "4cb2152f8a16d3974e0e449a130cf7a8592879a590471777e0961c8bd6666e47",
       "mode": 420
     },
     {
@@ -323,13 +323,13 @@
     {
       "path": "src/app/(dashboard)/dashboard/usage/components/ProviderLimits/parts/QuotaCardExpanded.tsx",
       "beforeSha256": "c513b6188cdd5a8e7d1e53128d02935571ed8c02efbeac9f506e9e98ee269405",
-      "afterSha256": "bd08196929ed6789030c1b563a7f4cb31b0a19403d4e69785928979e2666164f",
+      "afterSha256": "3ac660df38744136e7d3fbe01d179b49354316da1f94a9fbf3400cc6633bf178",
       "mode": 420
     },
     {
       "path": "src/app/(dashboard)/dashboard/usage/components/ProviderLimits/parts/SubscriptionCreditStatus.tsx",
       "beforeSha256": null,
-      "afterSha256": "bdb6368802aad59d2f2597867caf462e5e7e40c5b213226091f743fc96cb3e45",
+      "afterSha256": "51c4a43edc86e59de369b2b972d97ab74f7288c883aba681fc0a373f60c60703",
       "mode": 420
     },
     {
@@ -401,13 +401,13 @@
     {
       "path": "src/i18n/messages/en.json",
       "beforeSha256": "02869ee18c3b07ec2b58efcc0b438951a6cc508ce5f9b5fe51dde60fe4a2e8ca",
-      "afterSha256": "a0d15ca4e8456f185a2d9e9432a3d29f6dfd9ef6307ea03afccb2f358a0ab039",
+      "afterSha256": "12ea2f8dd380dbe89d046b94e240868a89560077e828d709cffa025d43532acf",
       "mode": 420
     },
     {
       "path": "src/i18n/messages/ko.json",
       "beforeSha256": "0b74c5cca3b1fa6d577a4e8261313fe1dadabd7c084d3b206c9510b3a7cb25fe",
-      "afterSha256": "752b98fc95953bcc583c027f78b21383b50599c5e5ffae41aac2c3196fb486cd",
+      "afterSha256": "15783323b83fc2b1dad8d7b1f08f178bb710628e30d3c3fed23f6756100b70c8",
       "mode": 420
     },
     {
@@ -723,6 +723,12 @@
       "mode": 420
     },
     {
+      "path": "tests/unit/kilo-pass-meter-rendering.test.tsx",
+      "beforeSha256": "2212b001c31781609de842f839441ad827e67c256ad050906f9d5bd1ce09854e",
+      "afterSha256": "abd6726c9117ffb602bb5b0763709ab080d37846169e87d185dcfaaceae470ea",
+      "mode": 420
+    },
+    {
       "path": "tests/unit/metered-budget-must-not-disable-flat-rate.test.ts",
       "beforeSha256": "51d6f2b0936f40486eb7abf87eea6b3c1e205f9c61c9b5a575b8d3d4c14886de",
       "afterSha256": "ec5822fb62a774f8215aa9a5f920c27bc711c304b26d2103464d22cac209c8db",
@@ -809,13 +815,19 @@
     {
       "path": "tests/unit/ui/codex-paid-credits.test.tsx",
       "beforeSha256": "d2057429000de6ec936b2bbfdfb8720303e1d2c2a24cd5a129cbd9e326bdffc3",
-      "afterSha256": "41e175c6aab2d285a968895cfa5418593f3ab73ed00a8fe0c0238fc9de24e373",
+      "afterSha256": "00bebc1c842a6d556e4d91810fad5cafab100b5bc36c3059b66c9fd3514d80e3",
       "mode": 420
     },
     {
       "path": "tests/unit/ui/codex-reset-credit-overview.test.tsx",
       "beforeSha256": null,
       "afterSha256": "3e8aa79dcdab115ed68b9461afabbb2469dc671717f888585612f20f25e78cd3",
+      "mode": 420
+    },
+    {
+      "path": "tests/unit/ui/connection-quota-panel.test.tsx",
+      "beforeSha256": "4e4e63efe699069861abd38eebfbbe5e7156efe28ff29d1d82f036dd1cc2ecce",
+      "afterSha256": "e051ffac421c12eaa6eb055fd4da665066d9d3ec6216c96e28d2c9b0d598845f",
       "mode": 420
     },
     {
