@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "name": "omniroute-subscriptions",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "upstream": {
     "version": "3.8.52",
     "commit": "edab7c3a59bf7d6f040d581dbda3a46adbee0d57",
@@ -215,7 +215,7 @@
     {
       "path": "src/app/(dashboard)/dashboard/providers/[id]/components/ConnectionQuotaPanel.tsx",
       "beforeSha256": "2185b4d4ee2cd8d1609fd48a8cf46e493ecdd940f274cf02931e611987811b0a",
-      "afterSha256": "4cb2152f8a16d3974e0e449a130cf7a8592879a590471777e0961c8bd6666e47",
+      "afterSha256": "2ae995b72cdb8536923cdf33a7fc8ec9329353f5932f7ca915de8db0fc51a2ce",
       "mode": 420
     },
     {
@@ -329,7 +329,7 @@
     {
       "path": "src/app/(dashboard)/dashboard/usage/components/ProviderLimits/parts/SubscriptionCreditStatus.tsx",
       "beforeSha256": null,
-      "afterSha256": "51c4a43edc86e59de369b2b972d97ab74f7288c883aba681fc0a373f60c60703",
+      "afterSha256": "4eb54cf6453b1293dc31009b5e32950ce89d14c07416faea26466dda8579ddf5",
       "mode": 420
     },
     {
@@ -815,7 +815,7 @@
     {
       "path": "tests/unit/ui/codex-paid-credits.test.tsx",
       "beforeSha256": "d2057429000de6ec936b2bbfdfb8720303e1d2c2a24cd5a129cbd9e326bdffc3",
-      "afterSha256": "00bebc1c842a6d556e4d91810fad5cafab100b5bc36c3059b66c9fd3514d80e3",
+      "afterSha256": "2570d3fa5dc70a9ff10937985378403f1b2d912126b9dd86a9b3ce72e7130044",
       "mode": 420
     },
     {
